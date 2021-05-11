@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /vscode/vscode-server/bin/x64/cfa2e218100323074ac1948c885448fdf4de2a7f/bin:/usr/local/share/npm-global/bin:/usr/local/share/nvm/current/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/node/.local/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.0.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:137009:13)
+      at Interface.emit (node:events:365:28)
+      at Interface._ttyWrite (node:readline:1007:16)
+      at ReadStream.onkeypress (node:readline:271:10)
+      at ReadStream.emit (node:events:365:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:readline:1281:36)
+      at ReadStream.emit (node:events:365:28)
+      at addChunk (node:internal/streams/readable:314:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
