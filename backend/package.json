@@ -1,35 +1,36 @@
 {
-  "name": "@yorkpress/take-home-server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "typeorm": "ts-node ./node_modules/typeorm/cli.js",
-    "start": "webpack --watch",
-    "prod": "ts-node dist/main.bundle.js",
-    "build": "webpack --config webpack.config.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/node": "^15.0.2",
-    "@types/webpack": "^5.28.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mysql": "^2.14.1",
-    "reflect-metadata": "^0.1.10",
-    "sqlite3": "^5.0.2",
-    "ts-node": "^9.1.1",
-    "typeorm": "0.2.32",
-    "typescript": "^4.2.4",
-    "webpack": "^5.37.0",
-    "webpack-node-externals": "^3.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^8.0.29",
-    "copy-webpack-plugin": "^8.1.1",
-    "ts-node": "3.3.0",
-    "typescript": "3.3.3333",
-    "webpack-cli": "^4.7.0"
-  }
+    "name": "@yorkpress/take-home-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "typeorm": "ts-node ./node_modules/typeorm/cli.js",
+        "start": "webpack --watch",
+        "prod": "ts-node dist/main.bundle.js",
+        "dev": "ts-node index.js",
+        "build": "webpack --config webpack.config.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^15.0.2",
+        "@types/webpack": "^5.28.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mysql": "^2.14.1",
+        "reflect-metadata": "^0.1.10",
+        "sqlite3": "^5.0.2",
+        "ts-node": "^9.1.1",
+        "typeorm": "0.2.32",
+        "typescript": "^4.2.4",
+        "webpack": "^5.37.0",
+        "webpack-node-externals": "^3.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^8.0.29",
+        "copy-webpack-plugin": "^8.1.1",
+        "ts-node": "3.3.0",
+        "typescript": "3.3.3333",
+        "webpack-cli": "^4.7.0"
+    }
 }

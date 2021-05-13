@@ -1,0 +1,11 @@
+.cover {
+    max-width: 400px;
+    padding: -20px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.cover:hover {
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}

@@ -1,0 +1,26 @@
+li {
+    height: 2rem;
+    background-color: #4e3e3b3b;
+    list-style-type: none;
+    line-height: 2rem;
+    margin: 20px 10px;
+    position: relative;
+    padding-left: 2rem;
+    font-weight: 600;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+li::before {
+    content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23fafafb' ></circle><circle cx='50' cy='50' r='25' fill='var(--color-dark-brown)'></circle></svg>");
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    /* border-radius: 50%; */
+    /* background-color: #4e3e3b; */
+    /* float: left; */
+    /* shape-outside: circle(); */
+    /* -webkit-clip-path: circle(); */
+    /* clip-path: circle(); */
+    left: -1rem;
+    position: absolute;
+}
