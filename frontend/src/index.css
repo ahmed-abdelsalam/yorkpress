@@ -40,6 +40,9 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
 }
+.modal {
+    z-index: 999;
+}
 button {
     background: var(--color-light-yellow);
     border: 0px;
